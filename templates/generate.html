@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <section>
+        <h1>Generate Icons</h1>
+        <form method="POST" action="{{ url_for('generate') }}">
+            <label for="prompt">Enter a prompt:</label>
+            <input type="text" id="prompt" name="prompt">
+            <input type="submit" value="Generate" id="submit">
+        </form>
+        {% if image_url %}
+            <img src="{{ image_url }}" alt="Generated Image" id="image">
+        {% endif %}
+    </section>
+{% endblock %}

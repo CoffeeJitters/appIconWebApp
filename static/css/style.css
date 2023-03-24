@@ -1,0 +1,113 @@
+/* CSS styles for the home page */
+#header {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+#prompt {
+    width: 80%;
+    padding: 0.5em;
+}
+
+#submit {
+    margin-top: 1em;
+}
+
+/* CSS styles for the generate page */
+#image {
+    max-width: 100%;
+    margin-bottom: 2em;
+}
+
+/* Add this to your main.css file */
+
+/* Style for header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #2c3e50;
+    color: #343434;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  /* Style for navigation */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 1rem;
+    list-style-type: none;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Style for main content */
+  main {
+    padding: 2rem;
+  }
+  
+  /* Style for form */
+  form {
+    margin: 2rem 0;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  form input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  form button[type="submit"] {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: none;
+    background-color: #2c3e50;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  /* Style for result */
+  .result {
+    margin-top: 2rem;
+  }
+  
+  .result h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .result img {
+    max-width: 100%;
+  }
+  
+  /* Style for footer */
+  footer {
+    padding: 1rem 2rem;
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+  }
+  

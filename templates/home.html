@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <section>
+        <h1>Welcome to the Web App!</h1>
+        <p>This is a simple web app that allows you to generate custom iPhone app icons using AI-powered generative art.</p>
+        <p>Click the button below to get started:</p>
+        <a href="{{ url_for('generate') }}" class="button">Generate Icons</a>
+    </section>
+{% endblock %}
